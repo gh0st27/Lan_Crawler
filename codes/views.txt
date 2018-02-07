@@ -1,0 +1,16 @@
+from django.http import HttpResponse
+from django.template import loader
+from . models import Metadata
+
+def index(request):
+    all_files = Metadata.objects.all()
+    html = ''
+    for files in all_files :
+        url = files.Path
+        html +='<a target="_blank" href=" '+ url + '">'+ files.Name +'</a><br>'
+
+    return HttpResponse(html)
+
+
+def search_result(request, Name):
+    return HttpResponse("<h2>u requested for :" + Name + "</h2>")

@@ -1,0 +1,9 @@
+{% if all_files %}
+<ul>
+    {% for file in all_files %}
+    <li> <a target="_blank" href="{{ file.Path}}"> {{ file.Name }} </a></li>
+    {% endfor %}
+</ul>
+{% else %}
+    <h3>sry file not exists</h3>
+{% endif %}
