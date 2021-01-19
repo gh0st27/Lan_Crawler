@@ -1,4 +1,4 @@
-## <h1> Windows LAN Crawler </h1>
+## Windows LAN Crawler
 
 Lan Crawler is a crawler and indexer to access shared files by SMB shares(Windows only). 
 
