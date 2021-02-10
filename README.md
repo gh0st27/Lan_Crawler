@@ -1,6 +1,6 @@
 ## Windows LAN Crawler
 
 Lan Crawler is a crawler and indexer to access shared files by SMB shares. 
-It provide dynamic Web UI is for searching files & downloading it from single dashboard
+It provides dynamic Web UI for searching files, media etc & allow user to download them using one click from single dashboard.
 
-Note: It does not crawl Linux & MAC shared files.
+Note: Currently it does not crawl Linux & MAC shared files.
